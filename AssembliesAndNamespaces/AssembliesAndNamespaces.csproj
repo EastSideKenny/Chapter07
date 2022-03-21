@@ -8,7 +8,13 @@
   </PropertyGroup>
 
 	<ItemGroup>
-		<Using Remove="System"/>
+		<Using Remove="System" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="packt.csdotnet.sharedlibrary"
+  Version="6.0.0" />
 	</ItemGroup>
 
 </Project>
